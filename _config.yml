@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: leezintaek's devDay # the main title
 
-tagline: 공부한 것을 기록합니다. | Documenting what I learn. # it will display as the subtitle
+tagline: 공부한 것을 기록합니다.  Documenting what I learn. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   컴퓨터공학 leezintaek의 개발 블로그. 공부한 내용과 삽질 기록을 정리합니다.
