@@ -1,0 +1,48 @@
+---
+---
+
+@use 'abstracts/variables' with (
+  $theme: '{{ site.theme_mode }}',
+  $font-family-base: ('Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif),
+  $font-family-heading: ('Pretendard Variable', Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif)
+);
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+@mixin accent-light {
+  --link-color: #744c9e;
+  --toc-highlight: #744c9e;
+  --btn-share-hover-color: #744c9e;
+  --sidebar-hover-bg: rgb(237 231 243 / 64%);
+}
+
+@mixin accent-dark {
+  --link-color: #c4a6e0;
+  --toc-highlight: #c4a6e0;
+  --link-underline-color: #5f4f73;
+}
+
+:root[data-bs-theme='light'] {
+  @include accent-light;
+}
+
+:root[data-bs-theme='dark'] {
+  @include accent-dark;
+}
+
+:root:not([data-bs-theme]) {
+  @media (prefers-color-scheme: light) {
+    @include accent-light;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    @include accent-dark;
+  }
+}
