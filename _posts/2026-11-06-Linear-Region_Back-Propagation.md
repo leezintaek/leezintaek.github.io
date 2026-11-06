@@ -18,7 +18,8 @@ Deep Network가 Shallow Network보다 유리한 이유를 한 문장으로 말�
 
 이 말이 무슨 뜻인지, 입력 1개와 출력 1개짜리 가장 단순한 Network로 확인해 보겠습니다.
 
-> 📷 **[이미지 추가]** Hidden layer가 1개인 Shallow Network와 여러 개인 Deep Network 구조 비교 — 추천 출처: 슬라이드 4 / 직접 그림
+![Shallow Network와 Deep Network 구조 비교](/assets/img/posts/linear-region-backprop/shallow-vs-deep.svg)
+_같은 22개 Parameter: Shallow(D=7)는 최대 8개, Deep(D=3, 2 layers)은 최대 16개 Linear region_
 
 ### 1.1 ReLU 하나는 "한 번 꺾이는 직선"
 
@@ -45,7 +46,8 @@ $$
 | 2 < x < 3 | 2            | 2      |
 | x > 3     | 3            | 3      |
 
-> 📷 **[이미지 추가]** 위 식의 그래프 (x = 1, 2, 3에서 꺾이는 piecewise linear 함수) — 추천 출처: 슬라이드 4 / 직접 그림
+![ReLU 3개의 합으로 만든 piecewise linear 함수](/assets/img/posts/linear-region-backprop/relu-sum.svg)
+_Breakpoint x = 1, 2, 3에서 기울기가 0 → 1 → 2 → 3으로 바뀜_
 
 각 Hidden unit은 **독립적으로** 계산됩니다. 하지만 모두 **같은 입력 $x$**를 받고, 출력에서 **가중합**됩니다. 그래서 어떤 unit이 켜지거나 꺼지는 지점에서만 출력 $y$의 기울기가 바뀝니다. Breakpoint 사이 구간에서는 켜진 unit 조합이 고정되어 있으므로 $y$가 직선이 됩니다. 이 구간을 **Linear region**이라고 합니다.
 
@@ -96,7 +98,8 @@ Network가 표현하는 그래프는 곧 **입력 → 출력 관계(함수)**입
 - 표현력이 부족하면 데이터가 아무리 많아도 패턴을 잡지 못합니다. 이 상태를 **Underfitting**이라고 합니다.
 - 반대로 표현력이 지나치면 노이즈까지 외울 수 있습니다. 이 상태를 **Overfitting**이라고 합니다.
 
-> 📷 **[이미지 추가]** 같은 데이터에 직선 모델과 piecewise linear 모델을 맞춘 비교 그래프 — 추천 출처: 직접 그림
+![직선 모델과 piecewise linear 모델 비교](/assets/img/posts/linear-region-backprop/linear-vs-piecewise.svg)
+_같은 데이터에 직선(Underfitting)과 piecewise linear 모델을 맞춘 결과_
 
 ---
 
@@ -142,13 +145,15 @@ $$
 \times \frac{\partial z_1}{\partial w_1}
 $$
 
-> 📷 **[이미지 추가]** $x \to z \to o \to L$ 연산 그래프와 Gradient가 거꾸로 흐르는 화살표 — 추천 출처: 슬라이드 15~16
+![연산 그래프와 Backpropagation 방향](/assets/img/posts/linear-region-backprop/computation-graph.svg)
+_Forward pass는 왼쪽→오른쪽, Gradient는 오른쪽→왼쪽으로 곱해짐_
 
 ### 2.2 직접 계산해보기
 
 입력 2개, Hidden unit 2개, 출력 1개인 Network입니다. Activation은 Sigmoid이고 Bias는 없습니다. 정답은 $y = 0.5$입니다.
 
-> 📷 **[이미지 추가]** 예시 Network 그림 ($x_0=0.35$, $x_1=0.7$, 각 Weight 값 표시) — 추천 출처: 슬라이드 12
+![예시 Network](/assets/img/posts/linear-region-backprop/example-network.svg)
+_입력 2개, Hidden unit 2개(Sigmoid), 출력 1개, Bias 없음_
 
 여기서 $w_{l,i,j}$는 layer $l$에서 $i$번째 입력과 $j$번째 unit을 잇는 Weight입니다.
 
@@ -190,7 +195,8 @@ $$
 \end{aligned}
 $$
 
-> 📷 **[이미지 추가]** 각 Weight 옆에 계산된 Gradient 값을 표시한 Network 그림 — 추천 출처: 슬라이드 17~19
+![각 Weight의 Gradient](/assets/img/posts/linear-region-backprop/gradient-network.svg)
+_각 Weight 옆에 계산된 Gradient — 앞쪽 layer일수록 작아짐_
 
 > **Note** 출력층 Weight의 Gradient는 **0.041**이고, 한 층 앞의 Weight는 **0.002**입니다. 한 층만 내려왔는데 약 20배 작아졌습니다. 이 현상이 2편의 주제인 **Vanishing gradient**로 이어집니다.
 
@@ -208,7 +214,8 @@ $$
 - $L$: Loss
 - $\eta$ (eta): **Learning rate**, 한 번에 이동하는 보폭
 
-> 📷 **[이미지 추가]** Loss–Parameter 곡선 위에서 Gradient 반대 방향으로 내려가는 그림 — 추천 출처: 슬라이드 20
+![Gradient Descent](/assets/img/posts/linear-region-backprop/gradient-descent.svg)
+_Loss 곡선 위에서 Gradient 반대 방향으로 내려가는 Gradient Descent_
 
 **예시** ($\eta = 0.01$)
 

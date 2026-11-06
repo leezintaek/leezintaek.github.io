@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" width="720" height="400" font-family="'Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<defs>
+  <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker>
+  <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="400" rx="12" fill="#ffffff"/>
+<line x1="70.0" y1="340.0" x2="670.0" y2="340.0" stroke="#4b5563" stroke-width="1.2"/>
+<line x1="70.0" y1="50.0" x2="70.0" y2="340.0" stroke="#4b5563" stroke-width="1.2"/>
+<text x="670.0" y="378.0" font-size="13" fill="#4b5563" text-anchor="end" font-weight="normal" font-style="italic" >W (Parameter)</text>
+<text x="60.0" y="40.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="normal" font-style="italic" >L (Loss)</text>
+<path d="M70.0,72.3 L75.0,80.3 L80.0,88.1 L85.0,95.8 L90.0,103.4 L95.0,110.8 L100.0,118.1 L105.0,125.2 L110.0,132.3 L115.0,139.2 L120.0,145.9 L125.0,152.5 L130.0,159.0 L135.0,165.4 L140.0,171.6 L145.0,177.7 L150.0,183.7 L155.0,189.5 L160.0,195.2 L165.0,200.7 L170.0,206.2 L175.0,211.4 L180.0,216.6 L185.0,221.6 L190.0,226.5 L195.0,231.2 L200.0,235.9 L205.0,240.4 L210.0,244.7 L215.0,248.9 L220.0,253.0 L225.0,256.9 L230.0,260.8 L235.0,264.4 L240.0,268.0 L245.0,271.4 L250.0,274.7 L255.0,277.8 L260.0,280.8 L265.0,283.7 L270.0,286.5 L275.0,289.1 L280.0,291.5 L285.0,293.9 L290.0,296.1 L295.0,298.2 L300.0,300.1 L305.0,301.9 L310.0,303.6 L315.0,305.1 L320.0,306.5 L325.0,307.8 L330.0,308.9 L335.0,310.0 L340.0,310.8 L345.0,311.6 L350.0,312.2 L355.0,312.6 L360.0,313.0 L365.0,313.2 L370.0,313.2 L375.0,313.2 L380.0,313.0 L385.0,312.6 L390.0,312.2 L395.0,311.6 L400.0,310.8 L405.0,310.0 L410.0,308.9 L415.0,307.8 L420.0,306.5 L425.0,305.1 L430.0,303.6 L435.0,301.9 L440.0,300.1 L445.0,298.2 L450.0,296.1 L455.0,293.9 L460.0,291.5 L465.0,289.1 L470.0,286.5 L475.0,283.7 L480.0,280.8 L485.0,277.8 L490.0,274.7 L495.0,271.4 L500.0,268.0 L505.0,264.4 L510.0,260.8 L515.0,256.9 L520.0,253.0 L525.0,248.9 L530.0,244.7 L535.0,240.4 L540.0,235.9 L545.0,231.2 L550.0,226.5 L555.0,221.6 L560.0,216.6 L565.0,211.4 L570.0,206.2 L575.0,200.7 L580.0,195.2 L585.0,189.5 L590.0,183.7 L595.0,177.7 L600.0,171.6 L605.0,165.4 L610.0,159.0 L615.0,152.5 L620.0,145.9 L625.0,139.2 L630.0,132.3 L635.0,125.2 L640.0,118.1 L645.0,110.8 L650.0,103.4 L655.0,95.8 L660.0,88.1 L665.0,80.3 L670.0,72.3" fill="none" stroke="#4b5563" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M50.0,45.8 L170.0,219.3" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="205.0" y="152.6" font-size="13" fill="#ea580c" text-anchor="start" font-weight="bold" >기울기 ∂L/∂W &lt; 0</text>
+<path d="M100.0,118.1 Q148.6,91.3 197.2,233.3" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<path d="M197.2,233.3 Q228.3,206.5 259.4,280.5" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<path d="M259.4,280.5 Q279.3,253.7 299.2,299.8" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<path d="M299.2,299.8 Q312.0,273.1 324.7,307.7" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<circle cx="100.0" cy="118.1" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<text x="100.0" y="142.1" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >W<tspan font-size='10' dy='4'>0</tspan></text>
+<circle cx="197.2" cy="233.3" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<text x="197.2" y="257.3" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >W<tspan font-size='10' dy='4'>1</tspan></text>
+<circle cx="259.4" cy="280.5" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<text x="259.4" y="304.5" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >W<tspan font-size='10' dy='4'>2</tspan></text>
+<circle cx="299.2" cy="299.8" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<text x="299.2" y="323.8" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >W<tspan font-size='10' dy='4'>3</tspan></text>
+<circle cx="324.7" cy="307.7" r="6" fill="#2563eb" stroke="#fff" stroke-width="2"/>
+<text x="324.7" y="331.7" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >W<tspan font-size='10' dy='4'>4</tspan></text>
+<circle cx="370.0" cy="313.2" r="5" fill="#059669"/>
+<text x="370.0" y="355.2" font-size="13" fill="#059669" text-anchor="middle" font-weight="bold" >최소점</text>
+<text x="530.0" y="108.0" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="bold" >W := W − η · ∂L/∂W</text>
+<text x="530.0" y="132.0" font-size="13" fill="#2563eb" text-anchor="middle" font-weight="bold" >Gradient 반대 방향으로 η만큼씩 이동</text>
+</svg>

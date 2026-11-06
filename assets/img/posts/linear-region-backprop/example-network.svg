@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 390" width="800" height="390" font-family="'Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<defs>
+  <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker>
+  <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker>
+</defs>
+<rect x="0" y="0" width="800" height="390" rx="12" fill="#ffffff"/>
+<line x1="162.0" y1="130.0" x2="338.0" y2="130.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#ag)"/>
+<line x1="156.6" y1="147.8" x2="343.4" y2="272.2" stroke="#4b5563" stroke-width="1.6" marker-end="url(#ag)"/>
+<line x1="156.6" y1="272.2" x2="343.4" y2="147.8" stroke="#4b5563" stroke-width="1.6" marker-end="url(#ag)"/>
+<line x1="162.0" y1="290.0" x2="338.0" y2="290.0" stroke="#4b5563" stroke-width="1.6" marker-end="url(#ag)"/>
+<line x1="400.6" y1="139.4" x2="599.4" y2="200.6" stroke="#4b5563" stroke-width="1.6" marker-end="url(#ag)"/>
+<line x1="400.6" y1="280.6" x2="599.4" y2="219.4" stroke="#4b5563" stroke-width="1.6" marker-end="url(#ag)"/>
+<circle cx="130.0" cy="130.0" r="32" fill="#f3f4f6" stroke="#4b5563" stroke-width="2"/><text x="130.0" y="134.9" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" >x<tspan font-size='10' dy='4'>0</tspan></text>
+<text x="88.0" y="135.0" font-size="15" fill="#1f2937" text-anchor="end" font-weight="bold" >0.35</text>
+<circle cx="130.0" cy="290.0" r="32" fill="#f3f4f6" stroke="#4b5563" stroke-width="2"/><text x="130.0" y="294.9" font-size="14" fill="#1f2937" text-anchor="middle" font-weight="normal" >x<tspan font-size='10' dy='4'>1</tspan></text>
+<text x="88.0" y="295.0" font-size="15" fill="#1f2937" text-anchor="end" font-weight="bold" >0.7</text>
+<circle cx="370.0" cy="130.0" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="370.0" y="136.3" font-size="18" fill="#1f2937" text-anchor="middle" font-weight="normal" >σ</text>
+<text x="370.0" y="88.0" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >o<tspan font-size='10' dy='4'>1,0</tspan><tspan dy='-4'> = 0.552</tspan></text>
+<circle cx="370.0" cy="290.0" r="32" fill="#dbeafe" stroke="#2563eb" stroke-width="2"/><text x="370.0" y="296.3" font-size="18" fill="#1f2937" text-anchor="middle" font-weight="normal" >σ</text>
+<text x="370.0" y="344.0" font-size="13" fill="#4b5563" text-anchor="middle" font-weight="normal" >o<tspan font-size='10' dy='4'>1,1</tspan><tspan dy='-4'> = 0.578</tspan></text>
+<circle cx="630.0" cy="210.0" r="32" fill="#ffedd5" stroke="#ea580c" stroke-width="2"/><text x="630.0" y="216.3" font-size="18" fill="#1f2937" text-anchor="middle" font-weight="normal" >σ</text>
+<text x="630.0" y="168.0" font-size="14" fill="#4b5563" text-anchor="middle" font-weight="bold" >ŷ = 0.665</text>
+<text x="700.0" y="215.0" font-size="14" fill="#1f2937" text-anchor="start" font-weight="bold" >y = 0.5</text>
+<text x="700.0" y="236.0" font-size="13" fill="#4b5563" text-anchor="start" font-weight="normal" >L ≈ 0.027</text>
+<rect x="201.1" y="105.0" width="97.8" height="19" rx="5" fill="#ffffff" stroke="#1f2937" stroke-width="1"/><text x="250.0" y="119.5" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold" >w₁,0,0 = 0.2</text>
+<rect x="201.1" y="295.0" width="97.8" height="19" rx="5" fill="#ffffff" stroke="#1f2937" stroke-width="1"/><text x="250.0" y="309.5" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold" >w₁,1,1 = 0.3</text>
+<rect x="148.3" y="165.8" width="97.8" height="19" rx="5" fill="#ffffff" stroke="#1f2937" stroke-width="1"/><text x="197.2" y="180.3" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold" >w₁,0,1 = 0.3</text>
+<rect x="148.3" y="236.2" width="97.8" height="19" rx="5" fill="#ffffff" stroke="#1f2937" stroke-width="1"/><text x="197.2" y="250.7" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold" >w₁,1,0 = 0.2</text>
+<rect x="451.1" y="145.0" width="97.8" height="19" rx="5" fill="#ffffff" stroke="#1f2937" stroke-width="1"/><text x="500.0" y="159.5" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold" >w₂,0,0 = 0.3</text>
+<rect x="451.1" y="259.0" width="97.8" height="19" rx="5" fill="#ffffff" stroke="#1f2937" stroke-width="1"/><text x="500.0" y="273.5" font-size="12" fill="#1f2937" text-anchor="middle" font-weight="bold" >w₂,1,0 = 0.9</text>
+<text x="130.0" y="40.0" font-size="14" fill="#9ca3af" text-anchor="middle" font-weight="bold" >입력층</text>
+<text x="370.0" y="40.0" font-size="14" fill="#9ca3af" text-anchor="middle" font-weight="bold" >Hidden layer</text>
+<text x="630.0" y="40.0" font-size="14" fill="#9ca3af" text-anchor="middle" font-weight="bold" >출력층</text>
+</svg>

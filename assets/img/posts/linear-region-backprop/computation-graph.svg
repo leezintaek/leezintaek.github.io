@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" width="720" height="360" font-family="'Pretendard','Noto Sans KR','Malgun Gothic','Apple SD Gothic Neo',sans-serif">
+<defs>
+  <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker>
+  <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#4b5563"/></marker>
+</defs>
+<rect x="0" y="0" width="720" height="360" rx="12" fill="#ffffff"/>
+<rect x="25.0" y="122.0" width="130" height="56" rx="10" fill="#f9fafb" stroke="#4b5563" stroke-width="1.8"/>
+<text x="90.0" y="155.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" >x, w</text>
+<rect x="205.0" y="122.0" width="130" height="56" rx="10" fill="#f9fafb" stroke="#4b5563" stroke-width="1.8"/>
+<text x="270.0" y="155.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" >z = Σ wᵢxᵢ</text>
+<rect x="385.0" y="122.0" width="130" height="56" rx="10" fill="#f9fafb" stroke="#4b5563" stroke-width="1.8"/>
+<text x="450.0" y="155.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" >o = σ(z)</text>
+<rect x="565.0" y="122.0" width="130" height="56" rx="10" fill="#f9fafb" stroke="#4b5563" stroke-width="1.8"/>
+<text x="630.0" y="155.0" font-size="15" fill="#1f2937" text-anchor="middle" font-weight="bold" >L = (o − y)²</text>
+<line x1="159.0" y1="140.0" x2="201.0" y2="140.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<line x1="339.0" y1="140.0" x2="381.0" y2="140.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<line x1="519.0" y1="140.0" x2="561.0" y2="140.0" stroke="#2563eb" stroke-width="2" marker-end="url(#ab)"/>
+<path d="M260,182.0 Q180.0,240.0 100,182.0" fill="none" stroke="#ea580c" stroke-width="2.2" marker-end="url(#ao)"/>
+<text x="180.0" y="236.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="bold" >∂z/∂w = x</text>
+<path d="M440,182.0 Q360.0,240.0 280,182.0" fill="none" stroke="#ea580c" stroke-width="2.2" marker-end="url(#ao)"/>
+<text x="360.0" y="236.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="bold" >∂o/∂z = σ(1−σ)</text>
+<path d="M620,182.0 Q540.0,240.0 460,182.0" fill="none" stroke="#ea580c" stroke-width="2.2" marker-end="url(#ao)"/>
+<text x="540.0" y="236.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="bold" >∂L/∂o = 2(o−y)</text>
+<text x="360.0" y="70.0" font-size="15" fill="#2563eb" text-anchor="middle" font-weight="bold" >Forward pass →  값을 계산</text>
+<text x="360.0" y="300.0" font-size="15" fill="#ea580c" text-anchor="middle" font-weight="bold" >← Backward pass  Gradient를 곱해 나감</text>
+<text x="360.0" y="334.0" font-size="16" fill="#1f2937" text-anchor="middle" font-weight="bold" >∂L/∂w = ∂L/∂o × ∂o/∂z × ∂z/∂w</text>
+</svg>
