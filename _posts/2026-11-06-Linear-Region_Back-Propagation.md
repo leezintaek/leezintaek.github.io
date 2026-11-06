@@ -1,21 +1,12 @@
 ---
-title: "왜 Deep일까? — Linear Region과 Backpropagation 직접 계산해보기"
-# 대안 제목:
-# - Shallow vs Deep Network, 그리고 Backpropagation 손계산
-# - Deep Network의 표현력과 학습 원리 (Linear Region · Chain Rule · Gradient Descent)
+title: "Shallow vs Deep Network, 그리고 Backpropagation 손계산"
 date: 2026-11-06 22:30:00 +0900
 categories: [AI, DL-Basics]
 tags: [Deep Learning, Neural Network, ReLU, Backpropagation, Gradient Descent]
+math: true
 ---
 
 > 인공지능개론 (Deep Learning 2) 강의를 공부하며 정리한 글입니다.
-
-## 목차
-
-1. [Shallow vs Deep Neural Network](#1-shallow-vs-deep-neural-network)
-2. [Backpropagation](#2-backpropagation)
-3. [Gradient Descent](#3-gradient-descent)
-4. [정리](#4-정리)
 
 ---
 
@@ -247,7 +238,6 @@ $$
 - Hidden unit 하나(ReLU)는 Breakpoint 하나를 만듭니다. Shallow Network는 최대 $D+1$개의 Linear region을 가집니다.
 - $K$개 layer를 쌓으면 Parameter는 $3D+1+(K-1)D(D+1)$로 선형으로 늘지만, region은 최대 $(D+1)^K$개로 지수적으로 늘어납니다. **이것이 Deep의 힘입니다.**
 - Gradient는 Chain rule로 구하고, $W := W - \eta\,\partial L / \partial W$로 Parameter를 업데이트합니다.
-- 앞쪽 layer로 갈수록 곱하는 항이 많아져 Gradient가 작아질 수 있습니다. 이 내용은 [2편](./week9_blog_2.md)에서 이어집니다. <!-- 블로그 URL로 교체 -->
 
 ## Reference
 
