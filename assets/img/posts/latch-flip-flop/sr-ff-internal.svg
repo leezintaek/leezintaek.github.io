@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 350" width="760" height="350" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<polyline points="30,200 90,200" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="24" y="205" font-size="14" fill="#7a8290" text-anchor="end" font-weight="600">CLK</text>
+<circle cx="70" cy="200" r="3.5" fill="#7a8290"/>
+<polyline points="70,200 70,180 180,180" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M90,184 L124,200 L90,216 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="129" cy="200" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<polyline points="134,200 180,200" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M180,165 H210 A25,25 0 0 1 210,215 H180 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<rect x="52" y="140" width="200" height="85" rx="6" fill="none" stroke="#7a8290" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="152" y="248" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">Edge detector</text>
+<polyline points="235,190 290,190" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262" y="182" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600">CLK*</text>
+<circle cx="290" cy="190" r="3.5" fill="#3b82f6"/>
+<path d="M330,60 H360 A25,25 0 0 1 360,110 H330 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="390" cy="85" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<path d="M330,260 H360 A25,25 0 0 1 360,310 H330 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="390" cy="285" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<polyline points="290,190 290,95 330,95" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="290,190 290,275 330,275" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="30,75 330,75" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="30,295 330,295" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="24" y="80" font-size="15" fill="#7a8290" text-anchor="end" font-weight="600">S</text>
+<text x="24" y="300" font-size="15" fill="#7a8290" text-anchor="end" font-weight="600">R</text>
+<text x="355" y="52" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="600">NAND1</text>
+<text x="355" y="328" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="600">NAND2</text>
+<rect x="315" y="30" width="100" height="310" rx="6" fill="none" stroke="#7a8290" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="365" y="22" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">Pulse steering</text>
+<polyline points="395,85 450,85 450,75 520,75" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="395,285 450,285 450,295 520,295" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="425" y="77" font-size="11" fill="#7a8290" text-anchor="middle">SET</text>
+<text x="425" y="277" font-size="11" fill="#7a8290" text-anchor="middle">CLEAR</text>
+<path d="M520,60 H550 A25,25 0 0 1 550,110 H520 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="580" cy="85" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<path d="M520,260 H550 A25,25 0 0 1 550,310 H520 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="580" cy="285" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<polyline points="610,85 610,130 505,230 505,275 520,275" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="610,285 610,240 490,140 490,95 520,95" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610" cy="85" r="3.5" fill="#ea580c"/>
+<circle cx="610" cy="285" r="3.5" fill="#ea580c"/>
+<polyline points="585,85 710,85" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="585,285 710,285" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="718" y="90" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<text x="718" y="290" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<line x1="719.0" y1="277.7" x2="726.3" y2="277.7" stroke="#7a8290" stroke-width="1.5"/>
+<rect x="475" y="30" width="160" height="310" rx="6" fill="none" stroke="#7a8290" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="555" y="22" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">NAND latch</text>
+</svg>

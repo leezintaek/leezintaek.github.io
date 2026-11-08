@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 360" width="920" height="360" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<text x="170" y="30" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">병렬 전송 (Parallel)</text>
+<rect x="130" y="60" width="80" height="70" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="100,80 130,80" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="138" y="85" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">D</text>
+<polyline points="100,110 130,110" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="210,80 240,80" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="202" y="85" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<path d="M130,102 L142,110 L130,118" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="90" y="85" font-size="14" fill="#3b82f6" text-anchor="end" font-weight="600">X</text>
+<text x="250" y="85" font-size="14" fill="#16a34a" text-anchor="start" font-weight="600">X*</text>
+<circle cx="70" cy="110" r="3.5" fill="#ea580c"/>
+<rect x="130" y="155" width="80" height="70" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="100,175 130,175" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="138" y="180" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">D</text>
+<polyline points="100,205 130,205" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="210,175 240,175" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="202" y="180" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<path d="M130,197 L142,205 L130,213" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="90" y="180" font-size="14" fill="#3b82f6" text-anchor="end" font-weight="600">Y</text>
+<text x="250" y="180" font-size="14" fill="#16a34a" text-anchor="start" font-weight="600">Y*</text>
+<circle cx="70" cy="205" r="3.5" fill="#ea580c"/>
+<rect x="130" y="250" width="80" height="70" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="100,270 130,270" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="138" y="275" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">D</text>
+<polyline points="100,300 130,300" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="210,270 240,270" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="202" y="275" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<path d="M130,292 L142,300 L130,308" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="90" y="275" font-size="14" fill="#3b82f6" text-anchor="end" font-weight="600">Z</text>
+<text x="250" y="275" font-size="14" fill="#16a34a" text-anchor="start" font-weight="600">Z*</text>
+<circle cx="70" cy="300" r="3.5" fill="#ea580c"/>
+<polyline points="70,330 70,110" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="70,110 100,110" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="70,205 100,205" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="70,300 100,300" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="70" y="350" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">CLK (공통)</text>
+<text x="610" y="30" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">직렬 전송 (Shift register)</text>
+<rect x="430" y="130" width="80" height="80" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="400,150 430,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="438" y="155" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">D</text>
+<polyline points="400,190 430,190" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="510,150 540,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="502" y="155" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<path d="M430,182 L442,190 L430,198" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="470.0" y="120" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">FF1</text>
+<rect x="570" y="130" width="80" height="80" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="540,150 570,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="578" y="155" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">D</text>
+<polyline points="540,190 570,190" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="650,150 680,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="642" y="155" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<path d="M570,182 L582,190 L570,198" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="610.0" y="120" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">FF2</text>
+<rect x="710" y="130" width="80" height="80" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="680,150 710,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="718" y="155" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">D</text>
+<polyline points="680,190 710,190" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="790,150 820,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="782" y="155" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<path d="M710,182 L722,190 L710,198" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="750.0" y="120" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">FF3</text>
+<polyline points="360,150 400,150" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="355" y="155" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="600">입력</text>
+<polyline points="540,150 540,150" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="680,150 680,150" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="825" y="175" font-size="13" fill="#16a34a" text-anchor="start" font-weight="600">출력</text>
+<polyline points="360,260 780,260" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="400" cy="260" r="3.5" fill="#ea580c"/>
+<polyline points="400,260 400,190" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="540" cy="260" r="3.5" fill="#ea580c"/>
+<polyline points="540,260 540,190" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="680" cy="260" r="3.5" fill="#ea580c"/>
+<polyline points="680,260 680,190" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="355" y="265" font-size="13" fill="#ea580c" text-anchor="end" font-weight="600">CLK</text>
+<text x="610" y="300" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">클럭마다 값이 한 칸씩 오른쪽으로 이동</text>
+</svg>

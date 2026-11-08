@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 220" width="560" height="220" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<rect x="300" y="50" width="120" height="130" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="270,80 300,80" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="308" y="85" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">J</text>
+<polyline points="270,115 300,115" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="270,150 300,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="308" y="155" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">K</text>
+<polyline points="420,80 450,80" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="412" y="85" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<polyline points="420,150 450,150" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="412" y="155" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<line x1="404.9" y1="144.3" x2="411.0" y2="144.3" stroke="#7a8290" stroke-width="1.5"/>
+<path d="M300,107 L312,115 L300,123" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="40,80 270,80" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="32" y="85" font-size="15" fill="#3b82f6" text-anchor="end" font-weight="600">D</text>
+<circle cx="150" cy="80" r="3.5" fill="#3b82f6"/>
+<polyline points="150,80 150,150 170,150" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M170,134 L204,150 L170,166 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="209" cy="150" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<polyline points="214,150 270,150" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="245" y="170" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600">D</text>
+<line x1="242.0" y1="159.3" x2="248.0" y2="159.3" stroke="#3b82f6" stroke-width="1.5"/>
+<text x="262" y="120" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">CLK</text>
+<text x="360" y="40" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">J-K Flip-Flop</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 290" width="760" height="290" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<path d="M130,70 H160 A25,25 0 0 1 160,120 H130 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="190" cy="95" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<path d="M130,190 H160 A25,25 0 0 1 160,240 H130 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="190" cy="215" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<polyline points="60,85 130,85" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="60,225 130,225" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="54" y="90" font-size="14" fill="#7a8290" text-anchor="end" font-weight="600">SET</text>
+<text x="54" y="230" font-size="14" fill="#7a8290" text-anchor="end" font-weight="600">CLEAR</text>
+<polyline points="195,95 320,95" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="195,215 320,215" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="330" y="100" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<text x="330" y="220" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<line x1="331.0" y1="207.7" x2="338.3" y2="207.7" stroke="#7a8290" stroke-width="1.5"/>
+<polyline points="230,95 230,125 115,175 115,205 130,205" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="230,215 230,185 100,125 100,105 130,105" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="230" cy="95" r="3.5" fill="#ea580c"/>
+<circle cx="230" cy="215" r="3.5" fill="#ea580c"/>
+<text x="210" y="34" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">NAND latch (Active-LOW)</text>
+<path d="M510,70 Q526,95 510,120 Q552,120 572,95 Q552,70 510,70 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="577" cy="95" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<path d="M510,190 Q526,215 510,240 Q552,240 572,215 Q552,190 510,190 Z" fill="none" stroke="#3b82f6" stroke-width="2.2"/>
+<circle cx="577" cy="215" r="5" fill="none" stroke="#3b82f6" stroke-width="2"/>
+<polyline points="440,85 516,85" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="440,225 516,225" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="434" y="90" font-size="14" fill="#7a8290" text-anchor="end" font-weight="600">RESET</text>
+<text x="434" y="230" font-size="14" fill="#7a8290" text-anchor="end" font-weight="600">SET</text>
+<polyline points="582,95 700,95" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="582,215 700,215" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="710" y="100" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<text x="710" y="220" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<line x1="711.0" y1="207.7" x2="718.3" y2="207.7" stroke="#7a8290" stroke-width="1.5"/>
+<polyline points="610,95 610,125 495,175 495,205 516,205" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="610,215 610,185 480,125 480,105 516,105" fill="none" stroke="#ea580c" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="610" cy="95" r="3.5" fill="#ea580c"/>
+<circle cx="610" cy="215" r="3.5" fill="#ea580c"/>
+<text x="590" y="34" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">NOR latch (Active-HIGH)</text>
+<text x="380" y="280" font-size="13" fill="#ea580c" text-anchor="middle">주황색 선: 출력이 반대쪽 게이트 입력으로 되돌아가는 Feedback</text>
+</svg>

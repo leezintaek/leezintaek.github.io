@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" width="720" height="300" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<text x="20" y="75" font-size="14" fill="#7a8290" text-anchor="start" font-weight="600">SET</text>
+<text x="20" y="165" font-size="14" fill="#7a8290" text-anchor="start" font-weight="600">CLEAR</text>
+<text x="20" y="255" font-size="15" fill="#7a8290" text-anchor="start" font-weight="600">Q</text>
+<polyline points="130,50 260,50 260,90 275,90 275,50 290,50 290,90 302,90 302,50 316,50 316,90 324,90 324,50 334,50 334,90 690,90" fill="none" stroke="#ea580c" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="130,140 690,140" fill="none" stroke="#3b82f6" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="130,270 262,270 262,230 690,230" fill="none" stroke="#16a34a" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="252" y="36" width="92" height="64" rx="4" fill="none" stroke="#ea580c" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="298" y="30" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">Bounce</text>
+<text x="520" y="120" font-size="13" fill="#7a8290" text-anchor="middle">튀는 순간에도 SET = CLEAR = 1 → 변화 없음</text>
+<text x="520" y="222" font-size="13" fill="#16a34a" text-anchor="middle">첫 접촉에서 한 번만 바뀌고 유지</text>
+</svg>

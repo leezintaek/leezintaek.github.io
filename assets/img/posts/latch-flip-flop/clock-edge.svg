@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 340" width="720" height="340" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="af" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<text x="30" y="85" font-size="14" fill="#7a8290" text-anchor="start" font-weight="600">CLK</text>
+<polyline points="100,110 150,110 150,50 220,50 220,110 290,110 290,50 360,50 360,110 430,110 430,50 500,50 500,110 570,110 570,50 640,50 640,110 690,110" fill="none" stroke="#7a8290" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="150,130 150,120" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="150" y="148" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600">↑ PGT</text>
+<text x="220" y="40" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">↓ NGT</text>
+<polyline points="290,130 290,120" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="290" y="148" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600">↑ PGT</text>
+<text x="360" y="40" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">↓ NGT</text>
+<polyline points="430,130 430,120" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="430" y="148" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600">↑ PGT</text>
+<text x="500" y="40" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">↓ NGT</text>
+<polyline points="570,130 570,120" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="570" y="148" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600">↑ PGT</text>
+<text x="640" y="40" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">↓ NGT</text>
+<rect x="160" y="200" width="110" height="110" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="130,225 160,225" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="168" y="230" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">J</text>
+<polyline points="130,255 160,255" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="130,285 160,285" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="168" y="290" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">K</text>
+<polyline points="270,225 300,225" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262" y="230" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<polyline points="270,285 300,285" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="262" y="290" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<line x1="254.9" y1="279.3" x2="261.0" y2="279.3" stroke="#7a8290" stroke-width="1.5"/>
+<path d="M160,247 L172,255 L160,263" fill="none" stroke="#7a8290" stroke-width="2"/>
+<text x="215" y="192" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">PGT: 삼각형만</text>
+<text x="110" y="260" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">CLK</text>
+<rect x="470" y="200" width="110" height="110" rx="4" fill="none" stroke="#7a8290" stroke-width="2"/>
+<polyline points="440,225 470,225" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="478" y="230" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">J</text>
+<polyline points="440,255 460,255" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<polyline points="440,285 470,285" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="478" y="290" font-size="13" fill="#7a8290" text-anchor="start" font-weight="600">K</text>
+<polyline points="580,225 610,225" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="572" y="230" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<polyline points="580,285 610,285" fill="none" stroke="#7a8290" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="572" y="290" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">Q</text>
+<line x1="564.9" y1="279.3" x2="571.0" y2="279.3" stroke="#7a8290" stroke-width="1.5"/>
+<path d="M470,247 L482,255 L470,263" fill="none" stroke="#7a8290" stroke-width="2"/>
+<circle cx="465" cy="255" r="5" fill="none" stroke="#ea580c" stroke-width="2"/>
+<text x="525" y="192" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">NGT: 삼각형 + 동그라미</text>
+<text x="420" y="260" font-size="13" fill="#7a8290" text-anchor="end" font-weight="600">CLK</text>
+</svg>
