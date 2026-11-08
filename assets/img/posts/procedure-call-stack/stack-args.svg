@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 420" width="720" height="420" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<text x="130" y="30" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="700" >레지스터 인자</text>
+<rect x="60" y="48" width="140" height="34" rx="4" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="2"/>
+<text x="80" y="70" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="700" >%rdi</text>
+<text x="185" y="70" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="500" >x1 = 1</text>
+<rect x="60" y="90" width="140" height="34" rx="4" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="2"/>
+<text x="80" y="112" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="700" >%rsi</text>
+<text x="185" y="112" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="500" >x2 = 2</text>
+<rect x="60" y="132" width="140" height="34" rx="4" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="2"/>
+<text x="80" y="154" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="700" >%rdx</text>
+<text x="185" y="154" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="500" >x3 = 3</text>
+<rect x="60" y="174" width="140" height="34" rx="4" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="2"/>
+<text x="80" y="196" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="700" >%rcx</text>
+<text x="185" y="196" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="500" >x4 = 4</text>
+<rect x="60" y="216" width="140" height="34" rx="4" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="2"/>
+<text x="80" y="238" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="700" >%r8</text>
+<text x="185" y="238" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="500" >x5 = 5</text>
+<rect x="60" y="258" width="140" height="34" rx="4" fill="#3b82f6" fill-opacity="0.12" stroke="#3b82f6" stroke-width="2"/>
+<text x="80" y="280" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="700" >%r9</text>
+<text x="185" y="280" font-size="13" fill="#3b82f6" text-anchor="end" font-weight="500" >x6 = 6</text>
+<text x="130" y="324" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="500" >Diane's Silk Dress Costs $8 9</text>
+<text x="480" y="30" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="700" >스택 (bar 진입 직후)</text>
+<rect x="400" y="48" width="160" height="44" rx="4" fill="#7a8290" fill-opacity="0.05" stroke="#7a8290" stroke-width="2"/>
+<text x="480" y="75" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600" >•••</text>
+<rect x="400" y="100" width="160" height="44" rx="4" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="2"/>
+<text x="480" y="127" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600" >Arg 8 = 8</text>
+<text x="390" y="127" font-size="12" fill="#3b82f6" text-anchor="end" font-weight="600" >0x10(%rsp)</text>
+<rect x="400" y="152" width="160" height="44" rx="4" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="2"/>
+<text x="480" y="179" font-size="13" fill="#3b82f6" text-anchor="middle" font-weight="600" >Arg 7 = 7</text>
+<text x="390" y="179" font-size="12" fill="#3b82f6" text-anchor="end" font-weight="600" >0x8(%rsp)</text>
+<rect x="400" y="204" width="160" height="44" rx="4" fill="#ea580c" fill-opacity="0.18" stroke="#ea580c" stroke-width="2"/>
+<text x="480" y="231" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600" >Return addr</text>
+<text x="390" y="231" font-size="12" fill="#ea580c" text-anchor="end" font-weight="600" >(%rsp)</text>
+<rect x="400" y="256" width="160" height="44" rx="4" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="480" y="283" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="600" >y = 1</text>
+<text x="390" y="283" font-size="12" fill="#16a34a" text-anchor="end" font-weight="600" >-0x8(%rsp)</text>
+<line x1="620" y1="226" x2="566" y2="226" stroke="#3b82f6" stroke-width="2" marker-end="url(#ab)"/>
+<text x="624" y="231" font-size="14" fill="#3b82f6" text-anchor="start" font-weight="700" >%rsp</text>
+<rect x="396" y="252" width="168" height="120" rx="6" fill="none" stroke="#16a34a" stroke-width="1.6" stroke-dasharray="3 4"/>
+<text x="480" y="332" font-size="13" fill="#16a34a" text-anchor="middle" font-weight="700" >red zone</text>
+<text x="480" y="352" font-size="12" fill="#16a34a" text-anchor="middle" font-weight="500" >(%rsp 아래 128바이트)</text>
+<text x="580" y="132" font-size="12" fill="#7a8290" text-anchor="start" font-weight="500" >역순 push:</text>
+<text x="580" y="150" font-size="12" fill="#7a8290" text-anchor="start" font-weight="500" >8 먼저, 7 나중</text>
+<text x="360" y="404" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="500" >leaf 함수 bar는 %rsp를 옮기지 않고 -0x8(%rsp)에 y를 바로 씁니다</text>
+</svg>
