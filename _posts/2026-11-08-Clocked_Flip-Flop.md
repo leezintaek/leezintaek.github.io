@@ -1,5 +1,6 @@
 ---
 title: "S-R·J-K·D Flip-Flop의 내부 구조와 데이터 전송"
+description: "Edge detector와 Pulse steering으로 이루어진 S-R Flip-Flop의 내부 구조부터 J-K의 Toggle, D Flip-Flop 구성, 병렬 전송과 Shift register 직렬 전송까지 정리합니다."
 date: 2026-11-08 18:10:00 +0900
 categories: [Digital Logic, Flip-Flops]
 tags: [Flip-Flop, S-R Flip-Flop, J-K Flip-Flop, D Flip-Flop, Shift Register]

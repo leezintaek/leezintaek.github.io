@@ -1,5 +1,6 @@
 ---
 title: "Latch와 Clock: 기억의 원리부터 Setup/Hold Time까지"
+description: "NAND·NOR Latch가 Feedback으로 값을 기억하는 원리, Debounce 회로, Pulse의 Rise/Fall time과 Pulse width, Clock의 PGT·NGT와 Setup/Hold time을 그림으로 정리합니다."
 date: 2026-11-08 18:00:00 +0900
 categories: [Digital Logic, Flip-Flops]
 tags: [Latch, Debounce, Pulse, Clock, Setup Time, Hold Time]

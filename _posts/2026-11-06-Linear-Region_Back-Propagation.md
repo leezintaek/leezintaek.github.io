@@ -1,5 +1,6 @@
 ---
 title: "Shallow vs Deep Network, 그리고 Backpropagation 손계산"
+description: "같은 Parameter로 Deep Network가 Shallow Network보다 더 많은 Linear region을 만드는 이유를 ReLU로 확인하고, 작은 Network에서 Backpropagation과 Gradient Descent를 직접 손으로 계산합니다."
 date: 2026-11-06 22:30:00 +0900
 categories: [AI, DL-Basics]
 tags: [Deep Learning, Neural Network, ReLU, Backpropagation, Gradient Descent]

@@ -19,7 +19,7 @@ permalink: /rss.xml
       <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       {% for category in post.categories %}<category>{{ category | xml_escape }}</category>
-      {% endfor %}<description>{{ post.content | strip_html | normalize_whitespace | truncate: 300 | xml_escape }}</description>
+      {% endfor %}<description>{{ post.description | default: post.content | strip_html | normalize_whitespace | truncate: 300 | xml_escape }}</description>
     </item>
     {% endfor %}
   </channel>
