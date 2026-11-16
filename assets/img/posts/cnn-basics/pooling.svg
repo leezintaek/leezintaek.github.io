@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 365" width="660" height="365" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<rect x="40" y="60" width="46" height="46" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.4"/>
+<text x="63.0" y="89.0" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="600">1</text>
+<rect x="86" y="60" width="46" height="46" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.4"/>
+<text x="109.0" y="89.0" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="600">3</text>
+<rect x="132" y="60" width="46" height="46" rx="0" fill="#ea580c" fill-opacity="0.14" stroke="#ea580c" stroke-width="1.4"/>
+<text x="155.0" y="89.0" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="600">5</text>
+<rect x="178" y="60" width="46" height="46" rx="0" fill="#ea580c" fill-opacity="0.14" stroke="#ea580c" stroke-width="1.4"/>
+<text x="201.0" y="89.0" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="40" y="106" width="46" height="46" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.4"/>
+<text x="63.0" y="135.0" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="600">2</text>
+<rect x="86" y="106" width="46" height="46" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.4"/>
+<text x="109.0" y="135.0" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="600">6</text>
+<rect x="132" y="106" width="46" height="46" rx="0" fill="#ea580c" fill-opacity="0.14" stroke="#ea580c" stroke-width="1.4"/>
+<text x="155.0" y="135.0" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="600">3</text>
+<rect x="178" y="106" width="46" height="46" rx="0" fill="#ea580c" fill-opacity="0.14" stroke="#ea580c" stroke-width="1.4"/>
+<text x="201.0" y="135.0" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="40" y="152" width="46" height="46" rx="0" fill="#16a34a" fill-opacity="0.14" stroke="#16a34a" stroke-width="1.4"/>
+<text x="63.0" y="181.0" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">7</text>
+<rect x="86" y="152" width="46" height="46" rx="0" fill="#16a34a" fill-opacity="0.14" stroke="#16a34a" stroke-width="1.4"/>
+<text x="109.0" y="181.0" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">2</text>
+<rect x="132" y="152" width="46" height="46" rx="0" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-width="1.4"/>
+<text x="155.0" y="181.0" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="600">1</text>
+<rect x="178" y="152" width="46" height="46" rx="0" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-width="1.4"/>
+<text x="201.0" y="181.0" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="600">2</text>
+<rect x="40" y="198" width="46" height="46" rx="0" fill="#16a34a" fill-opacity="0.14" stroke="#16a34a" stroke-width="1.4"/>
+<text x="63.0" y="227.0" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">5</text>
+<rect x="86" y="198" width="46" height="46" rx="0" fill="#16a34a" fill-opacity="0.14" stroke="#16a34a" stroke-width="1.4"/>
+<text x="109.0" y="227.0" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">6</text>
+<rect x="132" y="198" width="46" height="46" rx="0" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-width="1.4"/>
+<text x="155.0" y="227.0" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="600">4</text>
+<rect x="178" y="198" width="46" height="46" rx="0" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-width="1.4"/>
+<text x="201.0" y="227.0" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="600">1</text>
+<text x="132" y="42" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">입력 4×4 (2×2 영역, stride 2)</text>
+<line x1="240" y1="152" x2="346" y2="90" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<text x="406" y="36" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">Max pooling</text>
+<rect x="360" y="46" width="46" height="46" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.4"/>
+<text x="383" y="75" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="600">6</text>
+<rect x="406" y="46" width="46" height="46" rx="0" fill="#ea580c" fill-opacity="0.14" stroke="#ea580c" stroke-width="1.4"/>
+<text x="429" y="75" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="600">5</text>
+<rect x="360" y="92" width="46" height="46" rx="0" fill="#16a34a" fill-opacity="0.14" stroke="#16a34a" stroke-width="1.4"/>
+<text x="383" y="121" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">7</text>
+<rect x="406" y="92" width="46" height="46" rx="0" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-width="1.4"/>
+<text x="429" y="121" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="600">4</text>
+<line x1="240" y1="152" x2="346" y2="240" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<text x="406" y="186" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">Average pooling</text>
+<rect x="360" y="196" width="46" height="46" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.4"/>
+<text x="383" y="225" font-size="16" fill="#3b82f6" text-anchor="middle" font-weight="600">3</text>
+<rect x="406" y="196" width="46" height="46" rx="0" fill="#ea580c" fill-opacity="0.14" stroke="#ea580c" stroke-width="1.4"/>
+<text x="429" y="225" font-size="16" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="360" y="242" width="46" height="46" rx="0" fill="#16a34a" fill-opacity="0.14" stroke="#16a34a" stroke-width="1.4"/>
+<text x="383" y="271" font-size="16" fill="#16a34a" text-anchor="middle" font-weight="600">5</text>
+<rect x="406" y="242" width="46" height="46" rx="0" fill="#a855f7" fill-opacity="0.14" stroke="#a855f7" stroke-width="1.4"/>
+<text x="429" y="271" font-size="16" fill="#a855f7" text-anchor="middle" font-weight="600">2</text>
+<text x="480" y="100" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">영역마다 최댓값</text>
+<text x="480" y="250" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">12/4=3, 16/4=4,</text>
+<text x="480" y="270" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">20/4=5, 8/4=2</text>
+<text x="330" y="345" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">(4 − 2) / 2 + 1 = 2  →  2×2, Parameter 없음</text>
+</svg>

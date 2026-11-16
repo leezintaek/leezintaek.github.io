@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="800" height="320" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<rect x="40" y="110" width="46" height="46" rx="0" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.4"/>
+<text x="63.0" y="138.76" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">2</text>
+<rect x="86" y="110" width="46" height="46" rx="0" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.4"/>
+<text x="109.0" y="138.76" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">4</text>
+<rect x="40" y="156" width="46" height="46" rx="0" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.4"/>
+<text x="63.0" y="184.76" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">4</text>
+<rect x="86" y="156" width="46" height="46" rx="0" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.4"/>
+<text x="109.0" y="184.76" font-size="16" fill="#7a8290" text-anchor="middle" font-weight="600">8</text>
+<text x="86" y="96" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">입력 2×2</text>
+<line x1="150" y1="135" x2="225" y2="85" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<line x1="150" y1="155" x2="225" y2="255" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<rect x="240" y="30" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="257" y="53" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">2</text>
+<rect x="274" y="30" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="291" y="53" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">2</text>
+<rect x="308" y="30" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="325" y="53" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="342" y="30" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="359" y="53" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="240" y="64" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="257" y="87" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">2</text>
+<rect x="274" y="64" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="291" y="87" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">2</text>
+<rect x="308" y="64" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="325" y="87" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="342" y="64" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="359" y="87" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="240" y="98" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="257" y="121" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="274" y="98" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="291" y="121" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="308" y="98" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="325" y="121" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">8</text>
+<rect x="342" y="98" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="359" y="121" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">8</text>
+<rect x="240" y="132" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="257" y="155" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="274" y="132" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.2"/>
+<text x="291" y="155" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">4</text>
+<rect x="308" y="132" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="325" y="155" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">8</text>
+<rect x="342" y="132" width="34" height="34" rx="0" fill="#ea580c" fill-opacity="0.06" stroke="#ea580c" stroke-width="1.2"/>
+<text x="359" y="155" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">8</text>
+<text x="390" y="75" font-size="15" fill="#ea580c" text-anchor="start" font-weight="600">Duplicate</text>
+<text x="390" y="97" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">값을 2×2로 그대로 복제</text>
+<text x="390" y="117" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">→ 계단처럼 깨져 보임</text>
+<rect x="240" y="220" width="34" height="34" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.2"/>
+<text x="257" y="243" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">2</text>
+<rect x="274" y="220" width="34" height="34" rx="0" fill="#7a8290" fill-opacity="0.03" stroke="#7a8290" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="291" y="243" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">3</text>
+<rect x="308" y="220" width="34" height="34" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.2"/>
+<text x="325" y="243" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">4</text>
+<rect x="342" y="220" width="34" height="34" rx="0" fill="#7a8290" fill-opacity="0.03" stroke="#7a8290" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="359" y="243" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">2</text>
+<rect x="240" y="254" width="34" height="34" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.2"/>
+<text x="257" y="277" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">4</text>
+<rect x="274" y="254" width="34" height="34" rx="0" fill="#7a8290" fill-opacity="0.03" stroke="#7a8290" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="291" y="277" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">6</text>
+<rect x="308" y="254" width="34" height="34" rx="0" fill="#3b82f6" fill-opacity="0.14" stroke="#3b82f6" stroke-width="1.2"/>
+<text x="325" y="277" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">8</text>
+<rect x="342" y="254" width="34" height="34" rx="0" fill="#7a8290" fill-opacity="0.03" stroke="#7a8290" stroke-width="1.2" stroke-dasharray="3 3"/>
+<text x="359" y="277" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">4</text>
+<rect x="376" y="220" width="34" height="68" rx="0" fill="#7a8290" fill-opacity="0.0" stroke="#7a8290" stroke-width="1" stroke-dasharray="2 4"/>
+<text x="393" y="243" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="400">0</text>
+<text x="393" y="277" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="400">0</text>
+<text x="430" y="237" font-size="15" fill="#3b82f6" text-anchor="start" font-weight="600">Bi-linear interpolation (가로 방향)</text>
+<text x="430" y="259" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">사이 값을 직선으로 채움: (2+4)/2 = 3, (4+8)/2 = 6</text>
+<text x="430" y="279" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">오른쪽 바깥은 0으로 가정: (8+0)/2 = 4</text>
+</svg>

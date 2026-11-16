@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<rect x="40" y="50" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="62.0" y="77.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">a</text>
+<rect x="84" y="50" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="106.0" y="77.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">b</text>
+<rect x="128" y="50" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="150.0" y="77.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">c</text>
+<rect x="40" y="94" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="62.0" y="121.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">d</text>
+<rect x="84" y="94" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="106.0" y="121.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">e</text>
+<rect x="128" y="94" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="150.0" y="121.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">f</text>
+<rect x="40" y="138" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="62.0" y="165.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">g</text>
+<rect x="84" y="138" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="106.0" y="165.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">h</text>
+<rect x="128" y="138" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="150.0" y="165.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">i</text>
+<text x="106.0" y="36" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">입력 3×3</text>
+<text x="205" y="122.0" font-size="26" fill="#7a8290" text-anchor="middle" font-weight="600">∗</text>
+<rect x="240" y="72.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="262.0" y="99.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">j</text>
+<rect x="284" y="72.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="306.0" y="99.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">k</text>
+<rect x="240" y="116.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="262.0" y="143.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">l</text>
+<rect x="284" y="116.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="306.0" y="143.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">m</text>
+<text x="284" y="58.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">kernel 2×2</text>
+<line x1="350" y1="116.0" x2="410" y2="116.0" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<rect x="430" y="66.0" width="56" height="56" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="458.0" y="98.32" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="600">C(0,0)</text>
+<rect x="486" y="66.0" width="56" height="56" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="514.0" y="98.32" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">C(0,1)</text>
+<rect x="430" y="122.0" width="56" height="56" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="458.0" y="154.32" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">C(1,0)</text>
+<rect x="486" y="122.0" width="56" height="56" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="514.0" y="154.32" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">C(1,1)</text>
+<text x="486" y="52.0" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">Feature map 2×2</text>
+<text x="570" y="121.0" font-size="14" fill="#3b82f6" text-anchor="start" font-weight="600">C(0,0) = aj + bk + dl + em</text>
+<rect x="40" y="240" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="62.0" y="267.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">a</text>
+<rect x="84" y="240" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="106.0" y="267.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">b</text>
+<rect x="128" y="240" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="150.0" y="267.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">c</text>
+<rect x="40" y="284" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="62.0" y="311.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">d</text>
+<rect x="84" y="284" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="106.0" y="311.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">e</text>
+<rect x="128" y="284" width="44" height="44" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="150.0" y="311.04" font-size="14" fill="#3b82f6" text-anchor="middle" font-weight="600">f</text>
+<rect x="40" y="328" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="62.0" y="355.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">g</text>
+<rect x="84" y="328" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="106.0" y="355.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">h</text>
+<rect x="128" y="328" width="44" height="44" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="150.0" y="355.04" font-size="14" fill="#7a8290" text-anchor="middle" font-weight="600">i</text>
+<text x="106.0" y="226" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">입력 3×3</text>
+<text x="205" y="312.0" font-size="26" fill="#7a8290" text-anchor="middle" font-weight="600">∗</text>
+<rect x="240" y="262.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="262.0" y="289.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">j</text>
+<rect x="284" y="262.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="306.0" y="289.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">k</text>
+<rect x="240" y="306.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="262.0" y="333.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">l</text>
+<rect x="284" y="306.0" width="44" height="44" rx="0" fill="#ea580c" fill-opacity="0.12" stroke="#ea580c" stroke-width="1.4"/>
+<text x="306.0" y="333.04" font-size="14" fill="#ea580c" text-anchor="middle" font-weight="600">m</text>
+<text x="284" y="248.0" font-size="13" fill="#ea580c" text-anchor="middle" font-weight="600">kernel 2×2</text>
+<line x1="350" y1="306.0" x2="410" y2="306.0" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<rect x="430" y="256.0" width="56" height="56" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="458.0" y="288.32" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">C(0,0)</text>
+<rect x="486" y="256.0" width="56" height="56" rx="0" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.6"/>
+<text x="514.0" y="288.32" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="600">C(0,1)</text>
+<rect x="430" y="312.0" width="56" height="56" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="458.0" y="344.32" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">C(1,0)</text>
+<rect x="486" y="312.0" width="56" height="56" rx="0" fill="#7a8290" fill-opacity="0.04" stroke="#7a8290" stroke-width="1.4"/>
+<text x="514.0" y="344.32" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">C(1,1)</text>
+<text x="486" y="242.0" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">Feature map 2×2</text>
+<text x="570" y="311.0" font-size="14" fill="#3b82f6" text-anchor="start" font-weight="600">C(0,1) = bj + ck + el + fm</text>
+<text x="400" y="420" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">kernel을 한 칸씩 옮기며 겹친 위치끼리 곱해서 더합니다 (weighted sum)</text>
+</svg>

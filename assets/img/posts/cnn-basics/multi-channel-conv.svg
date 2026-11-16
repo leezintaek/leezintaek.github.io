@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 445" width="900" height="445" font-family="'Pretendard','Apple SD Gothic Neo','Noto Sans KR',sans-serif">
+<defs><marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#7a8290"/></marker><marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#3b82f6"/></marker><marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<rect x="60" y="120" width="100" height="100" rx="2" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.8"/>
+<rect x="50" y="130" width="100" height="100" rx="2" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.8"/>
+<rect x="40" y="140" width="100" height="100" rx="2" fill="#7a8290" fill-opacity="0.12" stroke="#7a8290" stroke-width="1.8"/>
+<text x="110" y="270" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">입력 J×K×C_in</text>
+<text x="110" y="290" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="400">(RGB면 C_in = 3장)</text>
+<rect x="314" y="46" width="40" height="40" rx="2" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.8"/>
+<rect x="307" y="53" width="40" height="40" rx="2" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.8"/>
+<rect x="300" y="60" width="40" height="40" rx="2" fill="#3b82f6" fill-opacity="0.18" stroke="#3b82f6" stroke-width="1.8"/>
+<text x="340" y="120" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="600">filter 1</text>
+<line x1="175" y1="160" x2="290" y2="80" stroke="#7a8290" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#ag)"/>
+<line x1="370" y1="80" x2="470" y2="80" stroke="#3b82f6" stroke-width="1.8" marker-end="url(#ab)"/>
+<text x="420" y="70" font-size="12" fill="#3b82f6" text-anchor="middle" font-weight="600">Σ + b</text>
+<rect x="480" y="52" width="56" height="56" rx="2" fill="#3b82f6" fill-opacity="0.16" stroke="#3b82f6" stroke-width="1.8"/>
+<text x="508" y="85" font-size="11" fill="#3b82f6" text-anchor="middle" font-weight="600">map 1</text>
+<rect x="314" y="166" width="40" height="40" rx="2" fill="#ea580c" fill-opacity="0.18" stroke="#ea580c" stroke-width="1.8"/>
+<rect x="307" y="173" width="40" height="40" rx="2" fill="#ea580c" fill-opacity="0.18" stroke="#ea580c" stroke-width="1.8"/>
+<rect x="300" y="180" width="40" height="40" rx="2" fill="#ea580c" fill-opacity="0.18" stroke="#ea580c" stroke-width="1.8"/>
+<text x="340" y="240" font-size="12" fill="#ea580c" text-anchor="middle" font-weight="600">filter 2</text>
+<line x1="175" y1="160" x2="290" y2="200" stroke="#7a8290" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#ag)"/>
+<line x1="370" y1="200" x2="470" y2="200" stroke="#ea580c" stroke-width="1.8" marker-end="url(#ao)"/>
+<text x="420" y="190" font-size="12" fill="#ea580c" text-anchor="middle" font-weight="600">Σ + b</text>
+<rect x="480" y="172" width="56" height="56" rx="2" fill="#ea580c" fill-opacity="0.16" stroke="#ea580c" stroke-width="1.8"/>
+<text x="508" y="205" font-size="11" fill="#ea580c" text-anchor="middle" font-weight="600">map 2</text>
+<text x="340" y="278" font-size="22" fill="#7a8290" text-anchor="middle" font-weight="600">⋮</text>
+<rect x="314" y="306" width="40" height="40" rx="2" fill="#7a8290" fill-opacity="0.18" stroke="#7a8290" stroke-width="1.8"/>
+<rect x="307" y="313" width="40" height="40" rx="2" fill="#7a8290" fill-opacity="0.18" stroke="#7a8290" stroke-width="1.8"/>
+<rect x="300" y="320" width="40" height="40" rx="2" fill="#7a8290" fill-opacity="0.18" stroke="#7a8290" stroke-width="1.8"/>
+<text x="340" y="380" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">filter C_out</text>
+<line x1="175" y1="160" x2="290" y2="340" stroke="#7a8290" stroke-width="1.8" stroke-dasharray="4 3" marker-end="url(#ag)"/>
+<line x1="370" y1="340" x2="470" y2="340" stroke="#7a8290" stroke-width="1.8" marker-end="url(#ag)"/>
+<text x="420" y="330" font-size="12" fill="#7a8290" text-anchor="middle" font-weight="600">Σ + b</text>
+<rect x="480" y="312" width="56" height="56" rx="2" fill="#7a8290" fill-opacity="0.16" stroke="#7a8290" stroke-width="1.8"/>
+<text x="508" y="345" font-size="11" fill="#7a8290" text-anchor="middle" font-weight="600">map C_out</text>
+<text x="340" y="22" font-size="13" fill="#7a8290" text-anchor="middle" font-weight="600">각 filter = m×m×C_in</text>
+<text x="600" y="120" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">채널별로 곱해 더한 뒤</text>
+<text x="600" y="140" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">같은 위치끼리 합산 + bias 1</text>
+<text x="600" y="160" font-size="13" fill="#3b82f6" text-anchor="start" font-weight="600">→ filter 하나당 Feature map 1장</text>
+<text x="600" y="210" font-size="13" fill="#7a8290" text-anchor="start" font-weight="400">filter 수 = output channel</text>
+<text x="600" y="230" font-size="13" fill="#ea580c" text-anchor="start" font-weight="600">→ Feature map C_out장</text>
+<text x="450" y="420" font-size="15" fill="#7a8290" text-anchor="middle" font-weight="600">Parameter = (m² × C_in + 1) × C_out</text>
+</svg>
