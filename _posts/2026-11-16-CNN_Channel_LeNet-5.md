@@ -1,7 +1,7 @@
 ---
 title: "CNN의 Channel과 LeNet-5 구조, 그리고 CIFAR 적용"
 description: "Input channel과 Output channel에 따른 Convolution 계산과 Parameter 수를 정리하고, LeNet-5의 Feature map 크기 흐름과 PyTorch 구현, CIFAR-10/100에 적용하는 방법을 다룹니다."
-date: 2026-11-16 23:40:00 +0900
+date: 2026-11-16 23:10:00 +0900
 categories: [AI, DL-Basics]
 tags: [Deep Learning, CNN, Channel, LeNet-5, PyTorch, CIFAR-10, CIFAR-100, Normalization]
 math: true

@@ -1,7 +1,7 @@
 ---
 title: "CNN 기초: Convolution, Padding, Stride, Pooling"
 description: "Image를 Flatten하면 생기는 문제에서 출발해 Convolution layer가 Kernel로 Feature map을 만드는 과정, Padding·Stride에 따른 크기 계산, Pooling과 Upsampling을 정리합니다."
-date: 2026-11-16 23:30:00 +0900
+date: 2026-11-16 23:00:00 +0900
 categories: [AI, DL-Basics]
 tags: [Deep Learning, CNN, Convolution, Edge Detection, Padding, Stride, Pooling, Upsampling]
 math: true
